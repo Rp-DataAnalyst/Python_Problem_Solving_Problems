@@ -2,20 +2,20 @@
 
 
 
-# def check_duplicate_element(list1):
-#     result = []
+def check_duplicate_element(list1):
+    result = []
 
-#     for num in list1 :
-#         num_str = str(num)
-#         has_duplicate = False 
-#         for digit in num_str:
-#             if num_str.count(digit) > 1 :
-#                 has_duplicate = True
-#                 break
-#         result.append(has_duplicate)
-#     print(result)
-# numbers = [202,89,112,88] 
-# check_duplicate_element(numbers)
+    for num in list1 :
+        num_str = str(num)
+        has_duplicate = False 
+        for digit in num_str:
+            if num_str.count(digit) > 1 :
+                has_duplicate = True
+                break
+        result.append(has_duplicate)
+    print(result)
+numbers = [202,89,112,88] 
+check_duplicate_element(numbers)
 
 
 # Sum of all numbers in a matrix:
