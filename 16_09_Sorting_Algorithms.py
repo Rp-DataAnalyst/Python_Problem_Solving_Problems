@@ -1,35 +1,35 @@
 #Sorting
 #Sorting algorithms: Bubble Sorting, Merge sort, Quick Sorting
-# list1= [10,-3,700,45,23,100,-300]
-# for j in range(0,6): # outer loop for iterating all items in list
-#       flag = False
-#       for i in range(0,len(list1)-1-j): # inner loop for moving max item to last index
-#             if list1[i] > list1[i+1]:
-#                   flag = True
-#                   list1[i], list1[i+1] = list1[i+1], list1[i]
-#       if flag == False:
-#             break 
-# print(list1)
+list1= [10,-3,700,45,23,100,-300]
+for j in range(0,6): # outer loop for iterating all items in list
+      flag = False
+      for i in range(0,len(list1)-1-j): # inner loop for moving max item to last index
+            if list1[i] > list1[i+1]:
+                  flag = True
+                  list1[i], list1[i+1] = list1[i+1], list1[i]
+      if flag == False:
+            break 
+print(list1)
 
 #Searching:
 # Searching Algorithms Linear Search, Binary Search:
 #Linerar search will work on any list , Binary search will work only on sorted list.
-# list1 = [23,32,53,23,12,33]
-# search_element = 33
-# flag = True 
-# for ind in range(0,len(list1)-1):
-#       if list1[ind] == search_element:
-#             print(ind)
-#             flag = False 
-#             break 
-# if flag == True:
-#       print('Not Found')
+list1 = [23,32,53,23,12,33]
+search_element = 33
+flag = True 
+for ind in range(0,len(list1)-1):
+      if list1[ind] == search_element:
+            print(ind)
+            flag = False 
+            break 
+if flag == True:
+      print('Not Found')
 
-# def linear_search(list1, search_elem):
-#       for i in range(len(list1)):
-#             if list1[i] == search_elem:
-#                   return i
-#       return False 
+def linear_search(list1, search_elem):
+      for i in range(len(list1)):
+            if list1[i] == search_elem:
+                  return i
+      return False 
 
 #Can you write bobble sort for descending order:
 def bobble_sort(list1):

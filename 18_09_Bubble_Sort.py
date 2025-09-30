@@ -40,6 +40,10 @@ list1 = [12,23,4,5,66,23,98,33,23]
 
 print(binary_search(list1))
 
+#T.C = O(n log n)
+#S.C = O(1)
+
+
 
 
 	

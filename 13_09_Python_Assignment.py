@@ -29,6 +29,9 @@ def find_num(input_list):
       print(min_nun)
 list1=[34,56,47,56,-44]
 find_num(list1)
+
+
+
 def sum_max_min_element_list(input_list):
       if len(input_list) == 0:
             return 'empty list'
